@@ -19,7 +19,7 @@ public class AddToCartTest {
         driver.navigate().to(testURL);
     }
     @Test
-    public void honorbuyLogInTest() throws InterruptedException {
+    public void honorbuyAddToCartTest() throws InterruptedException {
         driver.manage().window().maximize();
         Validator.logIn(driver);
         Navigator.goToHomePage(driver);
