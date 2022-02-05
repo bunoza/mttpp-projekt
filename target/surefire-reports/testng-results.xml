@@ -2,84 +2,84 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="39741" started-at="2022-02-05T18:36:17Z" finished-at="2022-02-05T18:36:57Z">
+  <suite name="Default Suite" duration-ms="40221" started-at="2022-02-05T23:39:38Z" finished-at="2022-02-05T23:40:18Z">
     <groups>
     </groups>
-    <test name="LogInTest" duration-ms="5508" started-at="2022-02-05T18:36:17Z" finished-at="2022-02-05T18:36:23Z">
+    <test name="LogInTest" duration-ms="6514" started-at="2022-02-05T23:39:38Z" finished-at="2022-02-05T23:39:44Z">
       <class name="LogInTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:LogInTest@80503]" name="setupTest" is-config="true" duration-ms="2807" started-at="2022-02-05T18:36:17Z" finished-at="2022-02-05T18:36:20Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:LogInTest@80503]" name="setupTest" is-config="true" duration-ms="4030" started-at="2022-02-05T23:39:38Z" finished-at="2022-02-05T23:39:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="honorbuyLogInTest()[pri:0, instance:LogInTest@80503]" name="honorbuyLogInTest" duration-ms="2107" started-at="2022-02-05T18:36:20Z" finished-at="2022-02-05T18:36:22Z">
+        <test-method status="PASS" signature="honorbuyLogInTest()[pri:0, instance:LogInTest@80503]" name="honorbuyLogInTest" duration-ms="1888" started-at="2022-02-05T23:39:42Z" finished-at="2022-02-05T23:39:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- honorbuyLogInTest -->
-        <test-method status="PASS" signature="teardownTest()[pri:0, instance:LogInTest@80503]" name="teardownTest" is-config="true" duration-ms="592" started-at="2022-02-05T18:36:22Z" finished-at="2022-02-05T18:36:23Z">
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:LogInTest@80503]" name="teardownTest" is-config="true" duration-ms="595" started-at="2022-02-05T23:39:43Z" finished-at="2022-02-05T23:39:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- LogInTest -->
     </test> <!-- LogInTest -->
-    <test name="SetBackInStockReminderTest" duration-ms="8050" started-at="2022-02-05T18:36:23Z" finished-at="2022-02-05T18:36:31Z">
+    <test name="SetBackInStockReminderTest" duration-ms="7551" started-at="2022-02-05T23:39:44Z" finished-at="2022-02-05T23:39:52Z">
       <class name="SetBackInStockReminderTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:SetBackInStockReminderTest@6b57696f]" name="setupTest" is-config="true" duration-ms="2202" started-at="2022-02-05T18:36:23Z" finished-at="2022-02-05T18:36:25Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:SetBackInStockReminderTest@6b57696f]" name="setupTest" is-config="true" duration-ms="2191" started-at="2022-02-05T23:39:44Z" finished-at="2022-02-05T23:39:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="honorbuySetBackInStockReminder()[pri:0, instance:SetBackInStockReminderTest@6b57696f]" name="honorbuySetBackInStockReminder" duration-ms="5236" started-at="2022-02-05T18:36:25Z" finished-at="2022-02-05T18:36:30Z">
+        <test-method status="PASS" signature="honorbuySetBackInStockReminder()[pri:0, instance:SetBackInStockReminderTest@6b57696f]" name="honorbuySetBackInStockReminder" duration-ms="4765" started-at="2022-02-05T23:39:46Z" finished-at="2022-02-05T23:39:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- honorbuySetBackInStockReminder -->
-        <test-method status="PASS" signature="teardownTest()[pri:0, instance:SetBackInStockReminderTest@6b57696f]" name="teardownTest" is-config="true" duration-ms="611" started-at="2022-02-05T18:36:30Z" finished-at="2022-02-05T18:36:31Z">
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:SetBackInStockReminderTest@6b57696f]" name="teardownTest" is-config="true" duration-ms="595" started-at="2022-02-05T23:39:51Z" finished-at="2022-02-05T23:39:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- SetBackInStockReminderTest -->
     </test> <!-- SetBackInStockReminderTest -->
-    <test name="AddToCartTest" duration-ms="7310" started-at="2022-02-05T18:36:31Z" finished-at="2022-02-05T18:36:38Z">
+    <test name="AddToCartTest" duration-ms="6994" started-at="2022-02-05T23:39:52Z" finished-at="2022-02-05T23:39:59Z">
       <class name="AddToCartTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:AddToCartTest@26a7b76d]" name="setupTest" is-config="true" duration-ms="2255" started-at="2022-02-05T18:36:31Z" finished-at="2022-02-05T18:36:33Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:AddToCartTest@26a7b76d]" name="setupTest" is-config="true" duration-ms="2061" started-at="2022-02-05T23:39:52Z" finished-at="2022-02-05T23:39:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="honorbuyLogInTest()[pri:0, instance:AddToCartTest@26a7b76d]" name="honorbuyLogInTest" duration-ms="4452" started-at="2022-02-05T18:36:33Z" finished-at="2022-02-05T18:36:38Z">
+        <test-method status="PASS" signature="honorbuyAddToCartTest()[pri:0, instance:AddToCartTest@26a7b76d]" name="honorbuyAddToCartTest" duration-ms="4317" started-at="2022-02-05T23:39:54Z" finished-at="2022-02-05T23:39:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- honorbuyLogInTest -->
-        <test-method status="PASS" signature="teardownTest()[pri:0, instance:AddToCartTest@26a7b76d]" name="teardownTest" is-config="true" duration-ms="603" started-at="2022-02-05T18:36:38Z" finished-at="2022-02-05T18:36:38Z">
+        </test-method> <!-- honorbuyAddToCartTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:AddToCartTest@26a7b76d]" name="teardownTest" is-config="true" duration-ms="616" started-at="2022-02-05T23:39:58Z" finished-at="2022-02-05T23:39:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- AddToCartTest -->
     </test> <!-- AddToCartTest -->
-    <test name="EmptyCartTest" duration-ms="8746" started-at="2022-02-05T18:36:38Z" finished-at="2022-02-05T18:36:47Z">
+    <test name="EmptyCartTest" duration-ms="8933" started-at="2022-02-05T23:39:59Z" finished-at="2022-02-05T23:40:08Z">
       <class name="EmptyCartTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:EmptyCartTest@7113b13f]" name="setupTest" is-config="true" duration-ms="2141" started-at="2022-02-05T18:36:38Z" finished-at="2022-02-05T18:36:40Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:EmptyCartTest@7113b13f]" name="setupTest" is-config="true" duration-ms="2179" started-at="2022-02-05T23:39:59Z" finished-at="2022-02-05T23:40:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="honorbuyEmptyCartTest()[pri:0, instance:EmptyCartTest@7113b13f]" name="honorbuyEmptyCartTest" duration-ms="6010" started-at="2022-02-05T18:36:40Z" finished-at="2022-02-05T18:36:46Z">
+        <test-method status="PASS" signature="honorbuyEmptyCartTest()[pri:0, instance:EmptyCartTest@7113b13f]" name="honorbuyEmptyCartTest" duration-ms="6144" started-at="2022-02-05T23:40:01Z" finished-at="2022-02-05T23:40:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- honorbuyEmptyCartTest -->
-        <test-method status="PASS" signature="teardownTest()[pri:0, instance:EmptyCartTest@7113b13f]" name="teardownTest" is-config="true" duration-ms="595" started-at="2022-02-05T18:36:46Z" finished-at="2022-02-05T18:36:47Z">
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:EmptyCartTest@7113b13f]" name="teardownTest" is-config="true" duration-ms="609" started-at="2022-02-05T23:40:07Z" finished-at="2022-02-05T23:40:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- EmptyCartTest -->
     </test> <!-- EmptyCartTest -->
-    <test name="AddToWishListTest" duration-ms="10127" started-at="2022-02-05T18:36:47Z" finished-at="2022-02-05T18:36:57Z">
+    <test name="AddToWishListTest" duration-ms="10229" started-at="2022-02-05T23:40:08Z" finished-at="2022-02-05T23:40:18Z">
       <class name="AddToWishListTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:AddToWishListTest@25af5db5]" name="setupTest" is-config="true" duration-ms="2260" started-at="2022-02-05T18:36:47Z" finished-at="2022-02-05T18:36:49Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:AddToWishListTest@25af5db5]" name="setupTest" is-config="true" duration-ms="2165" started-at="2022-02-05T23:40:08Z" finished-at="2022-02-05T23:40:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="honorbuyAddToWishListTest()[pri:0, instance:AddToWishListTest@25af5db5]" name="honorbuyAddToWishListTest" duration-ms="7260" started-at="2022-02-05T18:36:49Z" finished-at="2022-02-05T18:36:56Z">
+        <test-method status="PASS" signature="honorbuyAddToWishListTest()[pri:0, instance:AddToWishListTest@25af5db5]" name="honorbuyAddToWishListTest" duration-ms="7464" started-at="2022-02-05T23:40:10Z" finished-at="2022-02-05T23:40:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- honorbuyAddToWishListTest -->
-        <test-method status="PASS" signature="teardownTest()[pri:0, instance:AddToWishListTest@25af5db5]" name="teardownTest" is-config="true" duration-ms="607" started-at="2022-02-05T18:36:56Z" finished-at="2022-02-05T18:36:57Z">
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:AddToWishListTest@25af5db5]" name="teardownTest" is-config="true" duration-ms="600" started-at="2022-02-05T23:40:17Z" finished-at="2022-02-05T23:40:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
