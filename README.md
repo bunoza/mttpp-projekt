@@ -159,7 +159,7 @@ Prilikom odabira jednog proizvoda, njegovo ime se pohranjuje u lokalnu varijablu
 Zatim, navigira se do stranice "Wishlist", gdje se može vidjeti kako postoji proizvod u listi želja. Pritiskom na gumb "View", otkriva se proizvod koji se nalazi
 na popisu želja korisnika. Provjerava se jednakost imena proizvoda iz liste želja i prethodno pohranjenog imena u lokalnoj varijabli.
 
-Nakon pokretanja svih testova, stvara se izvještaj sure-fire-report plugina:
+Nakon pokretanja svih testova, stvara se izvještaj sure-fire-report plugina (folder "target" zakomentiran je u .gitignore datoteci kako bi se moglo doći do datoteke koja je prikazana slikom dolje):
 
 <a href="target/surefire-reports/index.html">
     <img src="/images/sure-fire-report.png" alt="report" width="1142" height="565">
