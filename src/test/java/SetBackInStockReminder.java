@@ -21,8 +21,8 @@ public class SetBackInStockReminder {
     @Test
     public void honorbuySetBackInStockReminder() throws InterruptedException {
         driver.manage().window().maximize();
-        LogInTest.logIn(driver);
-        driver.findElement(By.xpath("//img[@alt='HonorBuy Shop']")).click();
+        Validator.logIn(driver);
+        Navigator.goToHomePage(driver);
         driver.findElement(By.xpath("//*[@id=\"product_list\"]/div/div[1]/div[1]/div/div[1]/a")).click();
         driver.findElement(By.id("submit_subscribe")).click();
         Thread.sleep(1000);
