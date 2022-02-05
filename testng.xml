@@ -17,6 +17,10 @@
             <class name="AddToCartTest"/>
         </classes>
     </test>
-</test>
+    <test name="EmptyCartTest">
+        <classes>
+            <class name="EmptyCartTest"/>
+        </classes>
+    </test>
 
 </suite>
