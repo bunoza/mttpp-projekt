@@ -7,9 +7,16 @@
             <class name="LogInTest"/>
         </classes>
     </test>
-    <test name="SetBackInStockReminder">
+    <test name="SetBackInStockReminderTest">
         <classes>
-            <class name="SetBackInStockReminder"/>
+            <class name="SetBackInStockReminderTest"/>
         </classes>
     </test>
+    <test name="AddToCartTest">
+        <classes>
+            <class name="AddToCartTest"/>
+        </classes>
+    </test>
+</test>
+
 </suite>
