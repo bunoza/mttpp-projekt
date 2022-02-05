@@ -161,7 +161,7 @@ na popisu želja korisnika. Provjerava se jednakost imena proizvoda iz liste že
 
 Nakon pokretanja svih testova, stvara se izvještaj sure-fire-report plugina:
 
-<a href="/images/sure-fire-report.png">
+<a href="target/surefire-reports/index.html">
     <img src="/images/sure-fire-report.png" alt="report" width="1142" height="565">
   </a>
 
