@@ -162,7 +162,7 @@ na popisu želja korisnika. Provjerava se jednakost imena proizvoda iz liste že
 Nakon pokretanja svih testova, stvara se izvještaj sure-fire-report plugina (folder "target" zakomentiran je u .gitignore datoteci kako bi se moglo doći do datoteke koja je prikazana slikom dolje):
 
 <a href="target/surefire-reports/index.html">
-    <img src="/images/sure-fire-report.png" alt="report" width="1142" height="565">
+    <img src="/images/sure-fire.png" alt="report" width="1242" height="565">
   </a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
