@@ -22,8 +22,6 @@ public class LogInTest {
         System.setProperty("webdriver.chrome.driver", "driver//chromedriver.exe");
         driver = new ChromeDriver();
         driver.navigate().to(testURL);
-
-
     }
     @Test
     public void honorbuyLogInTest() throws InterruptedException {
