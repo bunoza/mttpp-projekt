@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://www.honorbuy.com/">
-    <img src="https://www.honorbuy.com/img/logo-1.jpg" alt="Logo" width="80" height="80">
+    <img src="/images/logo.jpg" alt="Logo" width="338" height="100">
   </a>
   <h2 align="center">Testiranje web stranice honorbuy.com</h2>
 </div>
@@ -16,7 +16,7 @@
     <li><a href="#korištene-tehnologije">Korištene tehnologije</a></li>
     <li><a href="#detalji">Detalji</a>
       <ul>
-        <li><a href="#logIn-test">LogIn test</a></li>
+        <li><a href="#LogIn-test">LogIn test</a></li>
         <li><a href="#SetBackInStockReminder-test">SetBackInStockReminder test</a></li>
         <li><a href="#addToCart-test">AddToCart test</a></li>
         <li><a href="#EmptyCart-test">EmptyCart test</a></li>
@@ -158,6 +158,12 @@ Nakon prijave, odabire se određena kategorija na web stranici. Proizvodi se sor
 Prilikom odabira jednog proizvoda, njegovo ime se pohranjuje u lokalnu varijablu. Na stranici proizvoda odabire se gumb kojim se proizvod dodaje na popis želja/favorita.
 Zatim, navigira se do stranice "Wishlist", gdje se može vidjeti kako postoji proizvod u listi želja. Pritiskom na gumb "View", otkriva se proizvod koji se nalazi
 na popisu želja korisnika. Provjerava se jednakost imena proizvoda iz liste želja i prethodno pohranjenog imena u lokalnoj varijabli.
+
+Nakon pokretanja svih testova, stvara se izvještaj sure-fire-report plugina:
+
+<a href="/images/sure-fire-report.png">
+    <img src="/images/sure-fire-report.png" alt="report" width="1142" height="565">
+  </a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
