@@ -10,14 +10,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-
-
 public class LogInTest {
 
     //-------------------Global Variables-----------------------------------
     public WebDriver driver;
     public String testURL = "https://www.honorbuy.com/";
-    Credentials credentials;
 
     //----------------------Test Setup-----------------------------------
     @BeforeMethod
@@ -25,6 +22,22 @@ public class LogInTest {
         System.setProperty("webdriver.chrome.driver", "driver//chromedriver.exe");
         driver = new ChromeDriver();
         driver.navigate().to(testURL);
+
+
+    }
+    @Test
+    public void honorbuyLogInTest() throws InterruptedException {
+        driver.manage().window().maximize();
+        logIn(driver);
+    }
+    //---------------Test TearDown-----------------------------------
+    @AfterMethod
+    public void teardownTest() {
+        driver.quit();
+    }
+
+    static void logIn(WebDriver driver){
+        Credentials credentials = new Credentials("x", "y");
 
         try {
             File file = new File("C:\\Users\\Domagoj\\Desktop\\credentials.txt");
@@ -40,10 +53,7 @@ public class LogInTest {
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
-    }
-    @Test
-    public void honorbuyLogInTest() throws InterruptedException {
-        driver.manage().window().maximize();
+
         driver.findElement(By.className("login")).click();
         driver.findElement(By.id("email")).clear();
         driver.findElement(By.id("email")).sendKeys(credentials.getEmail());
@@ -51,11 +61,6 @@ public class LogInTest {
         driver.findElement(By.id("passwd")).sendKeys(credentials.getPassword());
         driver.findElement(By.id("SubmitLogin")).click();
         Assert.assertEquals(driver.findElement(By.xpath("//*[@id=\"header_user_info\"]/div[3]/a/span")).getText(), "Domagoj Bunoza");
-        ;
     }
-    //---------------Test TearDown-----------------------------------
-    @AfterMethod
-    public void teardownTest() {
-        driver.quit();
-    }
+
 }
