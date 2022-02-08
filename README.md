@@ -38,7 +38,7 @@ Saznajte više na [odjeljku detalji](#detalji).
 
 ## Korištene tehnologije
 
-Ovaj odjeljak sadrži sve veće biblioteke,radne okvire korištene za razvoj projekta:
+Ovaj odjeljak sadrži sve veće biblioteke, radne okvire korištene za razvoj projekta:
 
 * [Java](https://www.java.com/en/)
 * [Maven](https://maven.apache.org/)
@@ -136,7 +136,7 @@ navigaciju na početnu stranicu i dodavanje proizvoda u košaricu:
         }
     }
 
-Nakon dodavanja dva proizvoda u košaricu, navigira se unutar košaricu, gdje se provjerava postoje li dva proizvoda unutar košarice.
+Nakon dodavanja dva proizvoda u košaricu, navigira se unutar košarice, gdje se provjerava postoje li dva proizvoda unutar košarice.
 
 
 ### EmptyCart test
@@ -148,7 +148,7 @@ dodani metodom klase `Navigator.java` dodatnom metodom iste klase:
         driver.findElement(By.id("2047_19687_0_3178870")).click();
     }
 
-Na ovaj način ispraznjuje se košarice, nakon čega se provjerava pojavljuje li se upozorenje koje glasi "Your shopping cart is empty."
+Na ovaj način ispraznjuje se košarica, nakon čega se provjerava pojavljuje li se upozorenje koje glasi "Your shopping cart is empty."
 
 
 ### AddToWishList test
@@ -170,5 +170,5 @@ Nakon pokretanja svih testova, stvara se izvještaj sure-fire-report plugina (fo
 <!-- Autor -->
 ## Autor
 
-Domagoj Bunoza - student 1. diplomskog studija programskog inženjerstva (DRC)
+Domagoj Bunoza - student 1. godine diplomskog studija programskog inženjerstva (DRC)
 
